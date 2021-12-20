@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#random-name-123{
+	padding: 15px;
+}
+#random-name-table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#random-name-table td, #random-name-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#random-name-table tr:nth-child(even){background-color: #f2f2f2;}
+
+#random-name-table tr:hover {background-color: #ddd;}
+
+#random-name-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #3498db;
+  color: white;
+}
+#button-random-name-123 {
+  display: inline-block;
+  transform: rotate(90deg);
+  background-color: #3498db;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 50%;
+  position: absolute;
+	right: 10px;
+	top: 15px;
+	cursor: pointer;
+}
+.div-random-name{
+	display: inline-flex;
+	padding: 15px;
+}
+.div-random-name h3{
+	width: 190px;
+}
